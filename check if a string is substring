@@ -1,0 +1,7 @@
+string = input("Enter the main string: ")
+substring = input("Enter the substring: ")
+
+if substring in string:
+    print(f"'{substring}' is a substring of '{string}'")
+else:
+    print(f"'{substring}' is not a substring of '{string}'")
