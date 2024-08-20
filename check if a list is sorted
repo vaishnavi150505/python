@@ -1,0 +1,6 @@
+numbers = [int(x) for x in input("Enter numbers separated by space: ").split()]
+
+if numbers == sorted(numbers):
+    print("The list is sorted in ascending order")
+else:
+    print("The list is not sorted")
