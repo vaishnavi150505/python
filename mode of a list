@@ -1,0 +1,7 @@
+from collections import Counter
+
+numbers = [int(x) for x in input("Enter numbers separated by space: ").split()]
+frequency = Counter(numbers)
+mode = frequency.most_common(1)[0][0]
+
+print("The mode is:", mode)
