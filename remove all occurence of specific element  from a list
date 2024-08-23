@@ -1,0 +1,6 @@
+elements = input("Enter elements separated by space: ").split()
+item_to_remove = input("Enter the element to remove: ")
+
+filtered_elements = [item for item in elements if item != item_to_remove]
+
+print("List after removing all occurrences of", item_to_remove, ":", filtered_elements)
