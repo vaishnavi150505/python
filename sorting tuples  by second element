@@ -1,0 +1,4 @@
+tuples = [tuple(map(int, input("Enter a tuple (separated by space): ").split())) for _ in range(int(input("Enter number of tuples: ")))]
+sorted_tuples = sorted(tuples, key=lambda x: x[1])
+
+print("Sorted list of tuples:", sorted_tuples)
