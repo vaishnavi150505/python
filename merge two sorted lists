@@ -1,0 +1,5 @@
+list1 = sorted([int(x) for x in input("Enter elements of the first sorted list separated by space: ").split()])
+list2 = sorted([int(x) for x in input("Enter elements of the second sorted list separated by space: ").split()])
+
+merged_list = sorted(list1 + list2)
+print("Merged sorted list:", merged_list)
