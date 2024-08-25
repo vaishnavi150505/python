@@ -1,0 +1,7 @@
+string = input("Enter a string: ")
+for char in string:
+    if string.count(char) == 1:
+        print("The first non-repeating character is:", char)
+        break
+else:
+    print("All characters repeat.")
