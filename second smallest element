@@ -1,0 +1,10 @@
+first_smallest = second_smallest = float('inf')
+for num in numbers:
+    if num < first_smallest:
+        second_smallest = first_smallest
+        first_smallest = num
+    elif first_smallest < num < second_smallest:
+        second_smallest = num
+
+print("The second smallest element is:", second_smallest)
+```
